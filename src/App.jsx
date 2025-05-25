@@ -23,8 +23,8 @@ const emojiGroups = [
     rewardEmojis
 ];
 function App() {
-    const rows = 30;
-    const cols = 10;
+    const rows = 100;
+    const cols = 100;
     const cellSize = 1;
 
     // Состояние карты
