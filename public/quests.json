@@ -1,0 +1,100 @@
+[
+  {
+    "id": "quest_1",
+    "name": "Помощь фермеру",
+    "map": "map_1",
+    "npc_position": { "x": 3, "y": 1 },
+    "stages": [
+      {
+        "id": "stage_1",
+        "description": "Поговорите с фермером.",
+        "condition": {
+          "type": "talk",
+          "npc": "👩🏻‍🦰",
+          "dialog": {
+            "npcText": "Волки угрожают моим полям! Собери 3 травы лечения и убей 2 волков.",
+            "options": [
+              { "text": "Я помогу!", "action": "accept_quest", "nextStage": "stage_2" },
+              { "text": "Нет времени.", "action": "decline" }
+            ]
+          }
+        }
+      },
+      {
+        "id": "stage_2",
+        "description": "Соберите 3 травы лечения.",
+        "condition": { "type": "collect", "item": "herb_healing", "quantity": 3 }
+      },
+      {
+        "id": "stage_3",
+        "description": "Убейте 2 волков.",
+        "condition": {
+          "type": "kill",
+          "enemy": "wolf",
+          "quantity": 2,
+          "onComplete": { "action": "change_map", "map": "map_2", "pos": { "x": 4, "y": 2 } }
+        }
+      },
+      {
+        "id": "stage_4",
+        "description": "Вернитесь к фермеру.",
+        "condition": {
+          "type": "talk",
+          "npc": "👩🏻‍🦰",
+          "dialog": {
+            "npcText": "Спасибо! Вот твоя награда!",
+            "options": [{ "text": "Рад помочь!", "action": "complete_quest" }]
+          }
+        }
+      }
+    ],
+    "rewards": {
+      "xp": 150,
+      "items": [{ "id": "potion_small", "quantity": 2 }]
+    }
+  },
+  {
+    "id": "quest_2",
+    "name": "Тайна мага",
+    "map": "map_1",
+    "npc_position": { "x": 18, "y": 5 },
+    "stages": [
+      {
+        "id": "stage_1",
+        "description": "Поговорите с магом.",
+        "condition": {
+          "type": "talk",
+          "npc": "🧙‍♂️",
+          "dialog": {
+            "npcText": "Мне нужен рубиновый самоцвет для ритуала. Найди его!",
+            "options": [
+              { "text": "Я найду его!", "action": "accept_quest", "nextStage": "stage_2" },
+              { "text": "Это не для меня.", "action": "decline" }
+            ]
+          }
+        }
+      },
+      {
+        "id": "stage_2",
+        "description": "Найдите рубиновый самоцвет.",
+        "condition": { "type": "collect", "item": "gem_ruby", "quantity": 1 }
+      },
+      {
+        "id": "stage_3",
+        "description": "Вернитесь к магу.",
+        "condition": {
+          "type": "talk",
+          "npc": "🧙‍♂️",
+          "dialog": {
+            "npcText": "Отличная работа! Вот твоя награда.",
+            "options": [{ "text": "Спасибо!", "action": "complete_quest" }]
+          }
+        }
+      }
+    ],
+    "rewards": {
+      "xp": 200,
+      "items": [{ "id": "scroll_fireball", "quantity": 1 }]
+    }
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "id": "goblin",
+    "name": "Гоблин",
+    "type": "humanoid",
+    "emoji": "🧍",
+    "hp": 50,
+    "defense": 3,
+    "accuracy": 0.75,
+    "critChance": 0.05,
+    "drops": [
+      { "itemId": "rusty_sword",   "chance": 0.10 },
+      { "itemId": "bone_fragment", "chance": 0.30 },
+      { "itemId": "bandit_loot",   "chance": 0.20 }
+    ]
+  },
+  {
+    "id": "wolf",
+    "name": "Волк",
+    "type": "beast",
+    "emoji": "🐺",
+    "hp": 70,
+    "defense": 5,
+    "accuracy": 0.80,
+    "critChance": 0.10,
+    "drops": [
+      { "itemId": "wolf_pelt",    "chance": 0.35 },
+      { "itemId": "claw_wolf",    "chance": 0.20 },
+      { "itemId": "herb_healing", "chance": 0.30 }
+    ]
+  },
+  {
+    "id": "skeleton",
+    "name": "Скелет",
+    "type": "undead",
+    "emoji": "💀",
+    "hp": 60,
+    "defense": 4,
+    "accuracy": 0.70,
+    "critChance": 0.15,
+    "drops": [
+      { "itemId": "bone_fragment",  "chance": 0.45 },
+      { "itemId": "rusty_sword",    "chance": 0.10 },
+      { "itemId": "guard_insignia", "chance": 0.10 },
+      { "itemId": "shield_wood",    "chance": 0.05 }
+    ]
+  },
+  {
+    "id": "bandit",
+    "name": "Бандит",
+    "type": "humanoid",
+    "emoji": "🧍",
+    "hp": 80,
+    "defense": 6,
+    "accuracy": 0.85,
+    "critChance": 0.20,
+    "drops": [
+      { "itemId": "bandit_loot",    "chance": 0.30 },
+      { "itemId": "rusty_sword",    "chance": 0.20 },
+      { "itemId": "guard_insignia", "chance": 0.10 }
+    ]
+  },
+  {
+    "id": "orc",
+    "name": "Орк",
+    "type": "humanoid",
+    "emoji": "🧍",
+    "hp": 150,
+    "defense": 10,
+    "accuracy": 0.65,
+    "critChance": 0.10,
+    "drops": [
+      { "itemId": "orc_tusk", "chance": 0.40 },
+      { "itemId": "iron_axe", "chance": 0.10 }
+    ]
+  },
+  {
+    "id": "giant_spider",
+    "name": "Гигантский паук",
+    "type": "insect",
+    "emoji": "🕷️",
+    "hp": 90,
+    "defense": 5,
+    "accuracy": 0.60,
+    "critChance": 0.25,
+    "drops": [
+      { "itemId": "spider_silk", "chance": 0.45 },
+      { "itemId": "fang_spider", "chance": 0.20 }
+    ]
+  },
+  {
+    "id": "undead_knight",
+    "name": "Нежить-рыцарь",
+    "type": "undead",
+    "emoji": "💀",
+    "hp": 200,
+    "defense": 15,
+    "accuracy": 0.75,
+    "critChance": 0.15,
+    "drops": [
+      { "itemId": "bone_fragment",  "chance": 0.35 },
+      { "itemId": "guard_insignia", "chance": 0.15 }
+    ]
+  },
+  {
+    "id": "dark_mage",
+    "name": "Темный маг",
+    "type": "humanoid",
+    "emoji": "🧙",
+    "hp": 120,
+    "defense": 8,
+    "accuracy": 0.90,
+    "critChance": 0.30,
+    "drops": [
+      { "itemId": "dark_tome",      "chance": 0.25 },
+      { "itemId": "herb_healing",   "chance": 0.20 }
+    ]
+  },
+  {
+    "id": "troll",
+    "name": "Тролль",
+    "type": "beast",
+    "emoji": "🐺",
+    "hp": 250,
+    "defense": 20,
+    "accuracy": 0.50,
+    "critChance": 0.05,
+    "drops": [
+      { "itemId": "troll_heart", "chance": 0.30 },
+      { "itemId": "iron_axe",    "chance": 0.15 }
+    ]
+  },
+  {
+    "id": "fire_elemental",
+    "name": "Огненный элементаль",
+    "type": "elemental",
+    "emoji": "🔥",
+    "hp": 180,
+    "defense": 12,
+    "accuracy": 0.80,
+    "critChance": 0.20,
+    "drops": [
+      { "itemId": "fire_essence",   "chance": 0.30 },
+      { "itemId": "elemental_core", "chance": 0.15 }
+    ]
+  }
+]

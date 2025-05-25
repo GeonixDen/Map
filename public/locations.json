@@ -1,0 +1,340 @@
+[
+  {
+    "id": "forest_edge",
+    "name": "Край леса",
+    "level": 1,
+    "enemies": [
+      {
+        "enemyId": "goblin",
+        "encounterRate": 0.50,
+        "dropModifiers": [
+          { "itemId": "rusty_sword",   "modifier": 1.00 },
+          { "itemId": "bone_fragment", "modifier": 1.00 },
+          { "itemId": "bandit_loot",   "modifier": 1.00 }
+        ]
+      },
+      {
+        "enemyId": "wolf",
+        "encounterRate": 0.30,
+        "dropModifiers": [
+          { "itemId": "wolf_pelt",    "modifier": 1.00 },
+          { "itemId": "claw_wolf",    "modifier": 1.00 },
+          { "itemId": "herb_healing", "modifier": 1.00 }
+        ]
+      },
+      {
+        "enemyId": "giant_spider",
+        "encounterRate": 0.20,
+        "dropModifiers": [
+          { "itemId": "spider_silk", "modifier": 0.95 },
+          { "itemId": "fang_spider", "modifier": 0.95 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dark_cave",
+    "name": "Темная пещера",
+    "level": 1,
+    "enemies": [
+      {
+        "enemyId": "skeleton",
+        "encounterRate": 0.40,
+        "dropModifiers": [
+          { "itemId": "bone_fragment",  "modifier": 1.10 },
+          { "itemId": "rusty_sword",    "modifier": 1.10 },
+          { "itemId": "guard_insignia", "modifier": 1.10 },
+          { "itemId": "shield_wood",    "modifier": 1.10 }
+        ]
+      },
+      {
+        "enemyId": "goblin",
+        "encounterRate": 0.35,
+        "dropModifiers": [
+          { "itemId": "rusty_sword",   "modifier": 1.05 },
+          { "itemId": "bone_fragment", "modifier": 1.05 },
+          { "itemId": "bandit_loot",   "modifier": 1.05 }
+        ]
+      },
+      {
+        "enemyId": "wolf",
+        "encounterRate": 0.25,
+        "dropModifiers": [
+          { "itemId": "wolf_pelt",    "modifier": 1.00 },
+          { "itemId": "claw_wolf",    "modifier": 1.00 },
+          { "itemId": "herb_healing", "modifier": 1.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ancient_ruins",
+    "name": "Древние руины",
+    "level": 1,
+    "enemies": [
+      {
+        "enemyId": "skeleton",
+        "encounterRate": 0.45,
+        "dropModifiers": [
+          { "itemId": "bone_fragment",  "modifier": 1.20 },
+          { "itemId": "rusty_sword",    "modifier": 1.20 },
+          { "itemId": "guard_insignia", "modifier": 1.20 },
+          { "itemId": "shield_wood",    "modifier": 1.20 }
+        ]
+      },
+      {
+        "enemyId": "dark_mage",
+        "encounterRate": 0.30,
+        "dropModifiers": [
+          { "itemId": "dark_tome",      "modifier": 1.15 },
+          { "itemId": "herb_healing",   "modifier": 1.15 }
+        ]
+      },
+      {
+        "enemyId": "goblin",
+        "encounterRate": 0.25,
+        "dropModifiers": [
+          { "itemId": "rusty_sword",   "modifier": 1.00 },
+          { "itemId": "bone_fragment", "modifier": 1.00 },
+          { "itemId": "bandit_loot",   "modifier": 1.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "swampy_moor",
+    "name": "Болотное болото",
+    "level": 1,
+    "enemies": [
+      {
+        "enemyId": "giant_spider",
+        "encounterRate": 0.50,
+        "dropModifiers": [
+          { "itemId": "spider_silk", "modifier": 1.00 },
+          { "itemId": "fang_spider", "modifier": 1.00 }
+        ]
+      },
+      {
+        "enemyId": "undead_knight",
+        "encounterRate": 0.30,
+        "dropModifiers": [
+          { "itemId": "bone_fragment",  "modifier": 1.10 },
+          { "itemId": "guard_insignia", "modifier": 1.10 }
+        ]
+      },
+      {
+        "enemyId": "goblin",
+        "encounterRate": 0.20,
+        "dropModifiers": [
+          { "itemId": "rusty_sword",   "modifier": 0.90 },
+          { "itemId": "bone_fragment", "modifier": 0.90 },
+          { "itemId": "bandit_loot",   "modifier": 0.90 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "meadow_glade",
+    "name": "Луговая поляна",
+    "level": 1,
+    "enemies": [
+      {
+        "enemyId": "wolf",
+        "encounterRate": 0.40,
+        "dropModifiers": [
+          { "itemId": "wolf_pelt",    "modifier": 1.00 },
+          { "itemId": "claw_wolf",    "modifier": 1.00 },
+          { "itemId": "herb_healing", "modifier": 1.00 }
+        ]
+      },
+      {
+        "enemyId": "goblin",
+        "encounterRate": 0.40,
+        "dropModifiers": [
+          { "itemId": "rusty_sword",   "modifier": 1.00 },
+          { "itemId": "bone_fragment", "modifier": 1.00 },
+          { "itemId": "bandit_loot",   "modifier": 1.00 }
+        ]
+      },
+      {
+        "enemyId": "skeleton",
+        "encounterRate": 0.20,
+        "dropModifiers": [
+          { "itemId": "bone_fragment",  "modifier": 0.95 },
+          { "itemId": "rusty_sword",    "modifier": 0.95 },
+          { "itemId": "guard_insignia", "modifier": 0.95 },
+          { "itemId": "shield_wood",    "modifier": 0.95 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rocky_hills",
+    "name": "Скалистые холмы",
+    "level": 1,
+    "enemies": [
+      {
+        "enemyId": "orc",
+        "encounterRate": 0.45,
+        "dropModifiers": [
+          { "itemId": "orc_tusk", "modifier": 1.00 },
+          { "itemId": "iron_axe", "modifier": 1.00 }
+        ]
+      },
+      {
+        "enemyId": "bandit",
+        "encounterRate": 0.35,
+        "dropModifiers": [
+          { "itemId": "bandit_loot",    "modifier": 1.05 },
+          { "itemId": "rusty_sword",    "modifier": 1.05 },
+          { "itemId": "guard_insignia", "modifier": 1.05 }
+        ]
+      },
+      {
+        "enemyId": "wolf",
+        "encounterRate": 0.20,
+        "dropModifiers": [
+          { "itemId": "wolf_pelt",    "modifier": 0.95 },
+          { "itemId": "claw_wolf",    "modifier": 0.95 },
+          { "itemId": "herb_healing", "modifier": 0.95 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "abandoned_mine",
+    "name": "Заброшенная шахта",
+    "level": 1,
+    "enemies": [
+      {
+        "enemyId": "troll",
+        "encounterRate": 0.50,
+        "dropModifiers": [
+          { "itemId": "troll_heart", "modifier": 1.10 },
+          { "itemId": "iron_axe",    "modifier": 1.10 }
+        ]
+      },
+      {
+        "enemyId": "skeleton",
+        "encounterRate": 0.30,
+        "dropModifiers": [
+          { "itemId": "bone_fragment",  "modifier": 1.00 },
+          { "itemId": "rusty_sword",    "modifier": 1.00 },
+          { "itemId": "guard_insignia", "modifier": 1.00 },
+          { "itemId": "shield_wood",    "modifier": 1.00 }
+        ]
+      },
+      {
+        "enemyId": "goblin",
+        "encounterRate": 0.20,
+        "dropModifiers": [
+          { "itemId": "rusty_sword",   "modifier": 0.90 },
+          { "itemId": "bone_fragment", "modifier": 0.90 },
+          { "itemId": "bandit_loot",   "modifier": 0.90 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cursed_graveyard",
+    "name": "Проклятое кладбище",
+    "level": 1,
+    "enemies": [
+      {
+        "enemyId": "undead_knight",
+        "encounterRate": 0.60,
+        "dropModifiers": [
+          { "itemId": "bone_fragment",  "modifier": 1.20 },
+          { "itemId": "guard_insignia", "modifier": 1.20 }
+        ]
+      },
+      {
+        "enemyId": "skeleton",
+        "encounterRate": 0.25,
+        "dropModifiers": [
+          { "itemId": "bone_fragment",  "modifier": 1.10 },
+          { "itemId": "rusty_sword",    "modifier": 1.10 },
+          { "itemId": "guard_insignia", "modifier": 1.10 },
+          { "itemId": "shield_wood",    "modifier": 1.10 }
+        ]
+      },
+      {
+        "enemyId": "goblin",
+        "encounterRate": 0.15,
+        "dropModifiers": [
+          { "itemId": "rusty_sword",   "modifier": 1.00 },
+          { "itemId": "bone_fragment", "modifier": 1.00 },
+          { "itemId": "bandit_loot",   "modifier": 1.00 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "misty_marsh",
+    "name": "Туманный ров",
+    "level": 1,
+    "enemies": [
+      {
+        "enemyId": "wolf",
+        "encounterRate": 0.50,
+        "dropModifiers": [
+          { "itemId": "wolf_pelt",    "modifier": 0.95 },
+          { "itemId": "claw_wolf",    "modifier": 0.95 },
+          { "itemId": "herb_healing", "modifier": 0.95 }
+        ]
+      },
+      {
+        "enemyId": "giant_spider",
+        "encounterRate": 0.35,
+        "dropModifiers": [
+          { "itemId": "spider_silk", "modifier": 1.00 },
+          { "itemId": "fang_spider", "modifier": 1.00 }
+        ]
+      },
+      {
+        "enemyId": "goblin",
+        "encounterRate": 0.15,
+        "dropModifiers": [
+          { "itemId": "rusty_sword",   "modifier": 0.90 },
+          { "itemId": "bone_fragment", "modifier": 0.90 },
+          { "itemId": "bandit_loot",   "modifier": 0.90 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "old_watchtower",
+    "name": "Старая сторожевая башня",
+    "level": 1,
+    "enemies": [
+      {
+        "enemyId": "bandit",
+        "encounterRate": 0.40,
+        "dropModifiers": [
+          { "itemId": "bandit_loot",    "modifier": 1.05 },
+          { "itemId": "rusty_sword",    "modifier": 1.05 },
+          { "itemId": "guard_insignia", "modifier": 1.05 }
+        ]
+      },
+      {
+        "enemyId": "skeleton",
+        "encounterRate": 0.35,
+        "dropModifiers": [
+          { "itemId": "bone_fragment",  "modifier": 1.00 },
+          { "itemId": "rusty_sword",    "modifier": 1.00 },
+          { "itemId": "guard_insignia", "modifier": 1.00 },
+          { "itemId": "shield_wood",    "modifier": 1.00 }
+        ]
+      },
+      {
+        "enemyId": "wolf",
+        "encounterRate": 0.25,
+        "dropModifiers": [
+          { "itemId": "wolf_pelt",    "modifier": 0.95 },
+          { "itemId": "claw_wolf",    "modifier": 0.95 },
+          { "itemId": "herb_healing", "modifier": 0.95 }
+        ]
+      }
+    ]
+  }
+]

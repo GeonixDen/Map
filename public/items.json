@@ -1,0 +1,62 @@
+[
+  {
+    "id": "potion_small",
+    "name": "Малое зелье лечения",
+    "type": "consumable",
+    "effect": { "heal": 50 }
+  },
+  {
+    "id": "potion_medium",
+    "name": "Среднее зелье лечения",
+    "type": "consumable",
+    "effect": { "heal": 150 }
+  },
+  {
+    "id": "sword_iron",
+    "name": "Железный меч",
+    "type": "weapon",
+    "attack": 12
+  },
+  {
+    "id": "shield_wood",
+    "name": "Деревянный щит",
+    "type": "armor",
+    "defense": 8
+  },
+  {
+    "id": "ring_protection",
+    "name": "Кольцо защиты",
+    "type": "accessory",
+    "effect": { "defense": 3 }
+  },
+  {
+    "id": "scroll_fireball",
+    "name": "Свиток «Огненный шар»",
+    "type": "consumable",
+    "effect": { "spell": "Fireball", "damage": 100 }
+  },
+  {
+    "id": "gem_ruby",
+    "name": "Рубиновый самоцвет",
+    "type": "crafting",
+    "value": 200
+  },
+  {
+    "id": "herb_healing",
+    "name": "Травы лечение",
+    "type": "crafting",
+    "effect": { "heal": 20 }
+  },
+  {
+    "id": "arrow_steel",
+    "name": "Стальная стрела",
+    "type": "ammo",
+    "attack": 5
+  },
+  {
+    "id": "armor_leather",
+    "name": "Кожаная броня",
+    "type": "armor",
+    "defense": 12
+  }
+]
