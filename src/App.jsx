@@ -305,11 +305,17 @@ function Grid({
 
     // Обработчики мыши
     const onPointerDown = e => {
-        if (e.button !== 0) return;
-        drawing.current = true;
-        const j = Math.round(e.point.x / cellSize);
-        const i = rows - 1 - Math.round(e.point.y / cellSize);
-        paintCell(i, j);
+        if (e.button === 0) {
+            drawing.current = true;
+            const j = Math.round(e.point.x / cellSize);
+            const i = rows - 1 - Math.round(e.point.y / cellSize);
+            paintCell(i, j);
+        }
+        if (e.button === 0) {
+            const j = Math.round(e.point.x / cellSize);
+            const i = rows - 1 - Math.round(e.point.y / cellSize);
+            console.log(j,i)
+        }
     };
     const onPointerUp = () => {
         drawing.current = false;
