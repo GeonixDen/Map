@@ -28,11 +28,11 @@ const allEmojis = [
     ...rewardEmojis
 ];
 const emojiGroups = [
+    floorEmoji,
     wallEmoji,
     enemyEmojis,
     npcEmojis,
     rewardEmojis,
-    floorEmoji,
 ];
 
 function App() {
