@@ -17,9 +17,9 @@ extend({PlaneBufferGeometry: THREE.PlaneGeometry});
 // Палитра эмоджи
 const floorEmoji = ['▫️'];
 const wallEmoji = ['⬛', '🌲', '🏠', '🏡', '🏘️', '🏚️', '🔥', '⛺', '🧱'];
-const enemyEmojis = ['💀', '🐍', '👻', '🧌', '👹', '🐺', '⚔️'];
-const npcEmojis = ['👩🏻‍🦰', '🧙‍♂️', '💬', '🛡️', '📜'];
-const rewardEmojis = ['💰', '🌿', '❓', '💎', '🪞', '⛏️', '✨'];
+const enemyEmojis = ['💀', '🐺', '⚔️', '👣', '🏴‍☠️', '🔼', '◀️', '▶️', '🔽'];
+const npcEmojis = ['👩🏻‍🦰', '🧙‍♂️', '💬', '📜', '❓', '❗️'];
+const rewardEmojis = ['💰', '🌿', '💎', '🪞', '⛏️', '✨'];
 const allEmojis = [
     ...floorEmoji,
     ...wallEmoji,
